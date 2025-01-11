@@ -16,4 +16,53 @@ header{
     justify-content: space-between;
     background-color: #272727;
 }
-.ca
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 70px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 15px;
+    padding: 20px 10px;
+    color: white;
+    width: 320px;
+    background-color: #4b4a4a;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.item h2{
+    font-size: 25px;
+    margin: 0;
+}
+
+.item-desc{
+    margin: 0;
+    font-size: 13px;
+}
+.item-price{
+    color: #9a83ff;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+.item-buy{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    padding: 12px;
+    width: fit-content;
+    font-size: 20px;
+    background-color: aqua;
+}
+
