@@ -66,3 +66,54 @@ header{
     background-color: aqua;
 }
 
+.cart-heading{
+    margin:0;
+    color:white;
+}
+
+.cart-items-middle{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.cart-items-middle{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.cart-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+.cart-item-left{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.cart-item p{
+    font-size: 30px;
+}
+
+.cart-item span{
+    font-size: 23px;
+}
+
+.quantity-input{
+    width: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: none;
+    border: none;
+}
+.total{
+    font-size: 25px;
+    color: white;
+}
+.total-price{
+    
+}
