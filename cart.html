@@ -1,37 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>LogikaFrontendRelease</title>
+   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <a href="./index.html" class="logo">Home</a>
-        <a href="/index.html" class="cart-container">
-        <p>Кошильок</p>
-
-        </a>
-    </header>
-    <main>
-        <h1 class="cart-heading">Кошильок</h1>
-        <section class="cart-items">
-            <article class="cart-items"></article>
-            <div class="cart-item-left"></div>
-            <img>
-            <h2></h2>
-        </div>
-        <div class="cart-item-middle"></div>
-        <span>Кількість</span>
-        <input class="quantity-input" type="number">
-    </div> 
-        <p class="cart-item-total"></p>
-
-        </section>
-    </main>
-    <footer></footer>
-     <script src="script.js"></script>
+   <header>
+       <a href="/" class="logo">Home</a>
+       <a href="/cart.html" class="cart-container">
+           <p>Кошик</p>
+           <svg xmlns="http://www.w3.org/2000/svg" class="bell" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+               <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+               <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+               <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+               <path d="M17 17h-11v-14h-2"></path>
+               <path d="M6 5l14 1l-1 7h-13"></path>
+             </svg>
+           <span>0</span>
+       </a>
+   </header>
+   <main>
+       <h1 class="cart-heading">Ваш кошик</h1>
+       <section class="cart-items">   
+           <!-- <article class="cart-item">
+               <div class="cart-item-left">
+                   <img>
+                   <h2></h2>
+               </div>
+               <div class="cart-item-middle">
+                   <span>Кількість</span>
+                   <input class="quantity-input" type="number">
+               </div>
+               <p class="cart-item-total"></p>
+           </article> -->
+       </section>
+       <p class="total">Сума замовлення: <span class="total-price"></span></p>
+       <button class="confirm-button">Оформити замовлення</button>
+   </main>
+   <footer>
+       <p>Logika IT School © 2024</p>
+       <p>Релізний проєкт Ім'я Прізвище</p>
+   </footer>
+   <script src="script.js"></script>
+   <script src="scriptCart.js"></script>
 </body>
 </html>
- 
